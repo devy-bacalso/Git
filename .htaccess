@@ -1,0 +1,10 @@
+# protect wp-config
+<files wp-config.php>
+order deny,allow
+deny from all
+</files>
+# protect wp-cron
+<files wp-cron.php>
+order deny,allow
+deny from all
+</files>

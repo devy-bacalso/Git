@@ -78,7 +78,9 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
-
+define( 'DISABLE_WP_CRON', true);
+/*define( 'FORCE_SSL_ADMIN', true);*/
+/*define( 'FORCE_SSL_LOGIN', true);*/
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
